@@ -36,15 +36,10 @@ namespace Buoi_1
             lbListHoTen.Items.Add(txtHoTen.Text);
         }
 
-        private void btnAdd_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Form_B1_FormClosing(object sender, FormClosingEventArgs e)
         {
             DialogResult r;
-            r = MessageBox.Show("Do you readlly want to close?", "Demo Form",
+            r = MessageBox.Show("Do you really want to close?", "Demo Form",
                 MessageBoxButtons.YesNo,
                 MessageBoxIcon.Question,
                 MessageBoxDefaultButton.Button1);

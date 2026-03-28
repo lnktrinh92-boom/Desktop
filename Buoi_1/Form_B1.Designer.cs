@@ -35,39 +35,43 @@
             // 
             // txtHoTen
             // 
-            this.txtHoTen.Location = new System.Drawing.Point(21, 48);
+            this.txtHoTen.Location = new System.Drawing.Point(28, 59);
+            this.txtHoTen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtHoTen.Name = "txtHoTen";
-            this.txtHoTen.Size = new System.Drawing.Size(275, 20);
+            this.txtHoTen.Size = new System.Drawing.Size(365, 22);
             this.txtHoTen.TabIndex = 0;
             // 
             // lbListHoTen
             // 
             this.lbListHoTen.FormattingEnabled = true;
-            this.lbListHoTen.Location = new System.Drawing.Point(21, 87);
+            this.lbListHoTen.ItemHeight = 16;
+            this.lbListHoTen.Location = new System.Drawing.Point(28, 107);
+            this.lbListHoTen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lbListHoTen.Name = "lbListHoTen";
-            this.lbListHoTen.Size = new System.Drawing.Size(369, 225);
+            this.lbListHoTen.Size = new System.Drawing.Size(491, 276);
             this.lbListHoTen.TabIndex = 1;
             this.lbListHoTen.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(315, 48);
+            this.btnAdd.Location = new System.Drawing.Point(420, 59);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(75, 23);
+            this.btnAdd.Size = new System.Drawing.Size(100, 28);
             this.btnAdd.TabIndex = 2;
             this.btnAdd.Text = "Thêm";
             this.btnAdd.UseVisualStyleBackColor = true;
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             this.btnAdd.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnAdd_MouseClick);
             // 
             // Form_B1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(420, 342);
+            this.ClientSize = new System.Drawing.Size(560, 421);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.lbListHoTen);
             this.Controls.Add(this.txtHoTen);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form_B1";
             this.Text = "Buoi 1";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form_B1_FormClosing);
