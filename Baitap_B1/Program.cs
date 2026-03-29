@@ -16,7 +16,7 @@ namespace Baitap_B1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Bai_1());
+            Application.Run(new Bai_2());
         }
     }
 }
