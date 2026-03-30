@@ -34,6 +34,8 @@ namespace Baitap_B1
             string time = dateTimePicker.Value.ToString("dd/MM/yyyy");
             string content = textContent.Text.Trim();
 
+            content = content.Replace(Environment.NewLine, " | ");
+
             if (content.Length > 10)
             {
                 content = content.Substring(0, 10) + "...";
@@ -46,10 +48,26 @@ namespace Baitap_B1
 
         private void buttonRemove_MouseClick(object sender, MouseEventArgs e)
         {
-            if (listContent.Items.Count > 0)
+            if (listContent.Items.Count == 0)
             {
-                listContent.Items.RemoveAt(listContent.Items.Count - 1);
+                MessageBox.Show("Không có dòng nào để xóa");
+                return;
             }
+
+            string selectedTime = dateTimePicker.Value.ToString("dd/MM/yyyy");
+
+            for (int i = 0; i < listContent.Items.Count; i++)
+            {
+                string item = listContent.Items[i].ToString();
+
+                if (item.StartsWith(selectedTime))
+                {
+                    listContent.Items.RemoveAt(i);
+                    return;
+                }
+            }
+
+            MessageBox.Show("Không tìm thấy nội dung với thời gian đã chọn");
         }
     }
 }

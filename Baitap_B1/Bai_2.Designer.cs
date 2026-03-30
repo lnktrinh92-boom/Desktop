@@ -97,6 +97,7 @@
             // 
             this.listContent.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listContent.FormattingEnabled = true;
+            this.listContent.HorizontalScrollbar = true;
             this.listContent.ItemHeight = 20;
             this.listContent.Location = new System.Drawing.Point(29, 313);
             this.listContent.Name = "listContent";
