@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Buoi_2
 {
-    public partial class StackDelete : Form
+    public partial class FormStackDelete : Form
     {
-        public StackDelete()
+        public FormStackDelete()
         {
             InitializeComponent();
         }

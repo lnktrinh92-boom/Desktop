@@ -1,6 +1,6 @@
 ﻿namespace Buoi_2
 {
-    partial class StackDelete
+    partial class FormStackDelete
     {
         /// <summary>
         /// Required designer variable.
@@ -43,17 +43,19 @@
             // textInput
             // 
             this.textInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textInput.Location = new System.Drawing.Point(22, 23);
+            this.textInput.Location = new System.Drawing.Point(29, 28);
+            this.textInput.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textInput.Name = "textInput";
-            this.textInput.Size = new System.Drawing.Size(198, 30);
+            this.textInput.Size = new System.Drawing.Size(263, 36);
             this.textInput.TabIndex = 0;
             // 
             // buttonAdd
             // 
             this.buttonAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonAdd.Location = new System.Drawing.Point(260, 21);
+            this.buttonAdd.Location = new System.Drawing.Point(347, 26);
+            this.buttonAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonAdd.Name = "buttonAdd";
-            this.buttonAdd.Size = new System.Drawing.Size(110, 35);
+            this.buttonAdd.Size = new System.Drawing.Size(147, 43);
             this.buttonAdd.TabIndex = 1;
             this.buttonAdd.Text = "Add";
             this.buttonAdd.UseVisualStyleBackColor = true;
@@ -63,19 +65,21 @@
             // 
             this.listBoxLeft.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBoxLeft.FormattingEnabled = true;
-            this.listBoxLeft.ItemHeight = 25;
-            this.listBoxLeft.Location = new System.Drawing.Point(22, 163);
+            this.listBoxLeft.ItemHeight = 29;
+            this.listBoxLeft.Location = new System.Drawing.Point(29, 201);
+            this.listBoxLeft.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.listBoxLeft.Name = "listBoxLeft";
-            this.listBoxLeft.Size = new System.Drawing.Size(198, 254);
+            this.listBoxLeft.Size = new System.Drawing.Size(263, 294);
             this.listBoxLeft.TabIndex = 2;
             this.listBoxLeft.SelectedIndexChanged += new System.EventHandler(this.listBoxLeft_SelectedIndexChanged);
             // 
             // buttonDeleteLeft
             // 
             this.buttonDeleteLeft.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonDeleteLeft.Location = new System.Drawing.Point(64, 93);
+            this.buttonDeleteLeft.Location = new System.Drawing.Point(85, 114);
+            this.buttonDeleteLeft.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonDeleteLeft.Name = "buttonDeleteLeft";
-            this.buttonDeleteLeft.Size = new System.Drawing.Size(110, 35);
+            this.buttonDeleteLeft.Size = new System.Drawing.Size(147, 43);
             this.buttonDeleteLeft.TabIndex = 3;
             this.buttonDeleteLeft.Text = "Delete";
             this.buttonDeleteLeft.UseVisualStyleBackColor = true;
@@ -84,9 +88,10 @@
             // buttonDeleteRight
             // 
             this.buttonDeleteRight.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonDeleteRight.Location = new System.Drawing.Point(361, 93);
+            this.buttonDeleteRight.Location = new System.Drawing.Point(481, 114);
+            this.buttonDeleteRight.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonDeleteRight.Name = "buttonDeleteRight";
-            this.buttonDeleteRight.Size = new System.Drawing.Size(110, 35);
+            this.buttonDeleteRight.Size = new System.Drawing.Size(147, 43);
             this.buttonDeleteRight.TabIndex = 4;
             this.buttonDeleteRight.Text = "Delete";
             this.buttonDeleteRight.UseVisualStyleBackColor = true;
@@ -96,19 +101,21 @@
             // 
             this.listBoxRight.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBoxRight.FormattingEnabled = true;
-            this.listBoxRight.ItemHeight = 25;
-            this.listBoxRight.Location = new System.Drawing.Point(317, 163);
+            this.listBoxRight.ItemHeight = 29;
+            this.listBoxRight.Location = new System.Drawing.Point(423, 201);
+            this.listBoxRight.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.listBoxRight.Name = "listBoxRight";
-            this.listBoxRight.Size = new System.Drawing.Size(198, 254);
+            this.listBoxRight.Size = new System.Drawing.Size(263, 294);
             this.listBoxRight.TabIndex = 5;
             this.listBoxRight.SelectedIndexChanged += new System.EventHandler(this.listBoxRight_SelectedIndexChanged);
             // 
             // buttonToRight
             // 
             this.buttonToRight.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonToRight.Location = new System.Drawing.Point(244, 183);
+            this.buttonToRight.Location = new System.Drawing.Point(325, 225);
+            this.buttonToRight.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonToRight.Name = "buttonToRight";
-            this.buttonToRight.Size = new System.Drawing.Size(51, 35);
+            this.buttonToRight.Size = new System.Drawing.Size(68, 43);
             this.buttonToRight.TabIndex = 6;
             this.buttonToRight.Text = ">";
             this.buttonToRight.UseVisualStyleBackColor = true;
@@ -117,9 +124,10 @@
             // buttonToLeft
             // 
             this.buttonToLeft.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonToLeft.Location = new System.Drawing.Point(244, 242);
+            this.buttonToLeft.Location = new System.Drawing.Point(325, 298);
+            this.buttonToLeft.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonToLeft.Name = "buttonToLeft";
-            this.buttonToLeft.Size = new System.Drawing.Size(51, 35);
+            this.buttonToLeft.Size = new System.Drawing.Size(68, 43);
             this.buttonToLeft.TabIndex = 7;
             this.buttonToLeft.Text = "<";
             this.buttonToLeft.UseVisualStyleBackColor = true;
@@ -128,9 +136,10 @@
             // buttonAllToRight
             // 
             this.buttonAllToRight.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonAllToRight.Location = new System.Drawing.Point(244, 304);
+            this.buttonAllToRight.Location = new System.Drawing.Point(325, 374);
+            this.buttonAllToRight.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonAllToRight.Name = "buttonAllToRight";
-            this.buttonAllToRight.Size = new System.Drawing.Size(51, 35);
+            this.buttonAllToRight.Size = new System.Drawing.Size(68, 43);
             this.buttonAllToRight.TabIndex = 8;
             this.buttonAllToRight.Text = ">>";
             this.buttonAllToRight.UseVisualStyleBackColor = true;
@@ -139,19 +148,20 @@
             // buttonAllToLeft
             // 
             this.buttonAllToLeft.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonAllToLeft.Location = new System.Drawing.Point(244, 365);
+            this.buttonAllToLeft.Location = new System.Drawing.Point(325, 449);
+            this.buttonAllToLeft.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonAllToLeft.Name = "buttonAllToLeft";
-            this.buttonAllToLeft.Size = new System.Drawing.Size(51, 35);
+            this.buttonAllToLeft.Size = new System.Drawing.Size(68, 43);
             this.buttonAllToLeft.TabIndex = 9;
             this.buttonAllToLeft.Text = "<<";
             this.buttonAllToLeft.UseVisualStyleBackColor = true;
             this.buttonAllToLeft.Click += new System.EventHandler(this.buttonAllToLeft_Click);
             // 
-            // StackDelete
+            // FormStackDelete
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(539, 450);
+            this.ClientSize = new System.Drawing.Size(719, 554);
             this.Controls.Add(this.buttonAllToLeft);
             this.Controls.Add(this.buttonAllToRight);
             this.Controls.Add(this.buttonToLeft);
@@ -162,7 +172,8 @@
             this.Controls.Add(this.listBoxLeft);
             this.Controls.Add(this.buttonAdd);
             this.Controls.Add(this.textInput);
-            this.Name = "StackDelete";
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "FormStackDelete";
             this.Text = "StackDelete";
             this.ResumeLayout(false);
             this.PerformLayout();
