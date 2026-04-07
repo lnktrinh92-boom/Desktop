@@ -20,11 +20,10 @@ namespace Buoi_3
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            DataTable table = new DataTable("SanPham");
+            table = new DataTable("SanPham");
             table.Columns.Add(new DataColumn("MaSP", Type.GetType("System.String")));
             table.Columns.Add(new DataColumn("TenSP", Type.GetType("System.String")));
             table.PrimaryKey = new DataColumn[] { table.Columns["MaSP"] };
-
             dataGridView1.DataSource = table;
         }
 

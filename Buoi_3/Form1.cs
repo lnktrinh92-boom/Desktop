@@ -42,7 +42,8 @@ namespace Buoi_3
 
         private void buttonInsert_Click(object sender, EventArgs e)
         {
-            //cmd.CommandText = "INSERT INTO LoaiSanPham(MaLoai, TenLoai) " + "VALUES(N'" + txtMaLoai.Text + "', N'" + txtTenLoai.Text + "')";
+            //cmd.CommandText = "INSERT INTO LoaiSanPham(MaLoai, TenLoai) " +
+            //"VALUES(N'" + txtMaLoai.Text + "', N'" + txtTenLoai.Text + "')";
             //cmd.CommandType = CommandType.Text;
 
             cmd.Parameters.AddWithValue("@ma", txtMaLoai.Text);
